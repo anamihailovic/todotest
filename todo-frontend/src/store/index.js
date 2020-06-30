@@ -2,9 +2,11 @@ import Vue from "vue";
 import Vuex from "vuex";
 
 Vue.use(Vuex);
-
+// Vuex je centralizovano 
 export default new Vuex.Store({
-  state: {},
+  state: {
+    baseUrl: 'http://localhost/todotest/todo-backend'
+  },
   mutations: {},
   actions: {},
   modules: {}
